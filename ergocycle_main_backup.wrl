@@ -306,7 +306,7 @@ humanoidBody [
  	DEF SADDLE_JOINT Joint { #saddle axis
         jointType "fixed"
         jointId 1
-        translation 0.170454545455 0.0 -0.375 #modif origin of saddle
+        translation 0.0 0.0 -0.0 #modif origin of saddle
         children [
           DEF SADDLE Segment {
           centerOfMass -0.00989448 0.04645260 -0.00015316
@@ -325,7 +325,7 @@ humanoidBody [
  	DEF SUPP_HANDLEBAR_JOINT Joint { #handlebar support axis
         jointType "fixed"
         jointId 2
-        translation -0.0395348837209 0.0 -0.17 #modif origin of supp_handlebar
+        translation -0.0 0.0 -0.0 #modif origin of supp_handlebar
         children [
           DEF SUPP_HANDLEBAR Segment {
           centerOfMass -0.00989448 0.04645260 -0.00015316
@@ -342,7 +342,7 @@ humanoidBody [
 	 	DEF HANDLEBAR_JOINT Joint { #handlebar axis
 		jointType "fixed"
 		jointId 3
-		translation 0.0 0.0 0.0 #modif origin of handlebar (x=[0.0,0.3])
+		translation -0.0 0.0 -0.0 #modif origin of handlebar
 		children [
 		  DEF HANDLEBAR Segment {
 		  centerOfMass -0.00989448 0.04645260 -0.00015316
