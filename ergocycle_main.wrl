@@ -227,7 +227,7 @@ humanoidBody [
     } # End of BASE
 
 
-        DEF CRANK_GEAR Joint {  #pedals axis
+        DEF SPRING_JOINT Joint {  #pedals axis
         jointType "rotate"
         jointId 0
         jointAxis "Y"
@@ -366,7 +366,7 @@ humanoidBody [
 
 joints [
     USE WAIST,
-    USE CRANK_GEAR,
+    USE SPRING_JOINT,
     USE PEDALS_AXIS_R,
     USE PEDALS_AXIS_L,
     USE SADDLE_JOINT,
