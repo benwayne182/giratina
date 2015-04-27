@@ -59,7 +59,7 @@
             <property name="LARM_JOINT5.angle" value="0.0"/>
             <property name="LARM_JOINT6.angle" value="0.78"/>
         </item>
-        <item class="com.generalrobotix.ui.item.GrxModelItem" name="ergocycle" select="true" url="/opt/grx/share/OpenHRP-3.1/sample/model/ergocycle/ergocycle_main.wrl">
+        <item class="com.generalrobotix.ui.item.GrxModelItem" name="ergocycle" select="true" url="$(CURRENT_DIR)/ergocycle_main.wrl">
             <property name="isRobot" value="false"/>
             <property name="WAIST.rotation" value="0.0 1.0 0.0 0.0 "/>
             <property name="WAIST.translation" value="0.0 0.0 0.0 "/>
