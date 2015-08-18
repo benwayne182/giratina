@@ -325,7 +325,7 @@ humanoidBody [
  	DEF SUPP_HANDLEBAR_JOINT Joint { #handlebar support axis
         jointType "fixed"
         jointId 2
-        translation -0.0395348837209 0.0 -0.17 #modif origin of supp_handlebar
+        translation -0.05 0.0 -0.215 #modif origin of supp_handlebar
         children [
           DEF SUPP_HANDLEBAR Segment {
           centerOfMass -0.00989448 0.04645260 -0.00015316
